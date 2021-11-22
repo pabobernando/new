@@ -1,0 +1,58 @@
+body{
+    background-color: #9C835F;
+}
+
+/*image*/
+.image{
+    width: 70px;
+    height: 70px;
+}
+
+.image-choose{
+    width: 70px;
+    height: 70px;
+}
+/*image*/
+
+/*logo*/
+.logo{
+    width: 85px;
+    height: 70px;
+}
+
+.logo-vs{
+    width: 100px;
+    height: 100px;
+}
+/*logo*/
+
+/*button*/
+.button{
+    width: 50px;
+    height: 50px;
+}
+/*button*/
+
+/*hover*/
+.player:hover{
+    background: #C4C4C4;
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    transform:scale(1.1,1.1);
+}
+
+.logo-refresh:hover{
+    transform: rotate(-35deg);
+}
+/*hover*/
+
+
+.computer-choose{
+    background: #C4C4C4;
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    transform:scale(1.1,1.1);
+}
+

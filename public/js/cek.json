@@ -1,0 +1,49 @@
+{
+    "optionPc": {
+        "0": {},
+        "1": {},
+        "2": {}
+    },
+    "optionPlayer": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "scorePlayer": {},
+    "scoreComputer": {},
+    "draw": {},
+    "score": {
+        "score": {
+            "playerScore": 1,
+            "pcScore": 0
+        },
+        "statusPlayer": "win"
+    },
+    "choice": {
+        "yourChoice": "paper"
+    }
+}
+
+'{
+    "optionPc": {
+        "0": {},
+        "1": {},
+        "2": {}
+    },
+    "optionPlayer": {
+        "0": {},
+        "1": {},
+        "2": {},
+        "3": {}
+    },
+    "scorePlayer": {},
+    "scoreComputer": {},
+    "draw": {},
+    "score": {
+        "score": {
+            "playerScore": 0,
+            "pcScore": 0
+        }
+    }
+}': ''

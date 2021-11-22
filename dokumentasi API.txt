@@ -1,0 +1,41 @@
+1. http://127.0.0.1:3002/api/v1/login
+    method POST
+    fungsi untuk login user 
+    param di body 
+    {
+        "username": "sss",
+        "password": 123456
+    }
+2. http://127.0.0.1:3002/api/v1/register
+    method POST
+    fungsi untuk register user 
+    param di body 
+    {
+        "email"   : "sss@mail.com"
+        "username": "sss",
+        "password": 123456
+    }
+3. http://127.0.0.1:3002/api/v1/create-room
+    method POST
+    fungsi untuk create room
+    param di body untuk menamai nama room
+    {
+    "name": "sg"
+    }
+4. http://127.0.0.1:3002/api/v1/join-room/{idRoom}
+   method POST
+   fungsi untuk join user di dalam room
+   param di url kirim id room
+   param di body untuk mengirim pilihan user untuk permainan ROCK,PAPER,SCISSOR  ket P:paper, R:rock, S:scissors
+   {
+    "choice" : ["P","P","S"]
+   }
+4. http://127.0.0.1:3002/api/v1/fight-room/{idRoom}
+   method POST
+   fungsi untuk fight user di dalam room
+   param di url kirim id room
+5. http://127.0.0.1:3002/api/v1/get-results/{room_name}
+   method GET
+   fungsi untuk mengambil score dan status game di dalam sebuah room
+   param di url kirim room name
+   
